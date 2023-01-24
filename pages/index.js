@@ -5,16 +5,20 @@ import About from "../components/UI/About";
 import Portfolio from "../components/UI/Portfolio";
 import Testimonial from "../components/UI/Testimonial";
 import Contact from "../components/UI/Contact";
+import Meta from "../components/UI/Meta";
 
 export default function Home() {
-  return (
-    <Fragment>
-      <Hero />
-      <Services />
-      <About />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-    </Fragment>
-  );
+	return (
+		<>
+			<Meta title="home" desc="this is descrtion" />
+			<Fragment>
+				<Hero />
+				<Services />
+				<About />
+				<Portfolio />
+				<Testimonial />
+				<Contact />
+			</Fragment>
+		</>
+	);
 }

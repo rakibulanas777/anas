@@ -18,13 +18,18 @@ const Hero = () => {
 							<h2 className="mt-3 mb-3">I&apos;m Rakibul Anas</h2>
 							<h5 className="mb-4">Mern-Stack Developer</h5>
 							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-								Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-								quos!
+								I am a quick learner and a dedicated programmer with substantial
+								web and software development expertise.
 							</p>
 							<div className="mt-5">
 								<button className="primary__btn">
-									<Link href="#">Hire me</Link>
+									<a
+										href="http://https://www.fiverr.com/rakibulanas777?up_rollout=true"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Hire me
+									</a>
 								</button>
 
 								<button className="secondary__btn">
@@ -69,7 +74,7 @@ const Hero = () => {
 								</span>
 								<div className="bg-transparent">
 									<h6>Experience</h6>
-									<h5 className="mb-0">4 Years</h5>
+									<h6 className="mb-0">2 Years</h6>
 								</div>
 							</div>
 						</div>
